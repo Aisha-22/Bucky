@@ -1,6 +1,9 @@
-import java.util.Scanner; //getting the 'Scanner and telling Java you going to need it
-import java.util.Locale;
-
+//A class is a blue print for creating code, its used as a template for objects, also describes object behavior, and defines object properties including a valid range of value, such as Properties and methods
+/*
+        Creating an Object:
+        Class provides the blueprints for objects. So basically, an object is created from a class. In Java, the new keyword is used to create new objects.
+        Example - Declaration Instantiation Instantiation
+         */
 public class Apples {
     //Inside that class is a 'Method'
     //Method-Header
@@ -26,14 +29,26 @@ public class Apples {
 
 //Basic Calculator
         BasicCalculator basiccalculator = new BasicCalculator();
-        basiccalculator.equalsTo();
+//        basiccalculator.equalsTo();
 
 //Math Operators
         MathOperators operate = new MathOperators();
-        operate.calc();
+//        operate.calc();
 
 //If Statements
         IfStatement statement = new IfStatement();
-        statement.check();
+//        statement.check();
+
+        //My playground
+        playground playground1 = new playground();
+//        playground1.runArray();
+
+        //Logical Operators
+        LogicalOperators logicaloperators = new LogicalOperators();
+//        logicaloperators.testOperators();
+
+        //Array element counter (Random number)
+        RandomDice dice = new RandomDice();
+        dice.rollDice();
     }
 }
